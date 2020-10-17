@@ -415,14 +415,18 @@ ol {
 }
 .c-form-input:hover + .input-icon-svg-name,
 .c-form-input:hover + .input-icon-svg-tel,
-.c-form-input:hover + .input-icon-svg-mail
+.c-form-input:hover + .input-icon-svg-mail,
+.c-form-input:focus + .input-icon-svg-name,
+.c-form-input:focus + .input-icon-svg-tel,
+.c-form-input:focus + .input-icon-svg-mail
 {   
     fill: #2196F3;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.c-form-input:hover {
+.c-form-input:hover,
+.c-form-input:focus {
     border-color: #2196f3;
     cursor: pointer;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -473,7 +477,8 @@ ol {
    
 }
 
-.comm-form-input:hover {
+.comm-form-input:hover,
+.comm-form-input:focus {
     border-color: #2196f3;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
